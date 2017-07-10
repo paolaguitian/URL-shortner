@@ -1,0 +1,7 @@
+<h1>Url Generator</h1>
+<%= render "form" %>
+
+<h4>NEW URLS </h4>
+<% @urls.each do |url| %>
+  <%= link_to "/url/#{url.new_url}", "/url/#{url.new_url}" %><br>
+<%end%>

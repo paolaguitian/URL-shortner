@@ -1,0 +1,8 @@
+<%= form_for @url do |f| %>
+    <%= f.label :original_url %>
+    <%= f.text_field :original_url %>
+    <%= f.submit %>
+<%end%>
+
+<!-- in form it will take what is being submitted and send it to the params and automatically
+go to create action -->
